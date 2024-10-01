@@ -11,7 +11,9 @@ function App() {
   return (
    
     <HashRouter>
-          <header><Nav></Nav>
+          <header>
+            <Nav>
+            </Nav>
         </header>
       <Routes>
         <Route path='/' element={<ToDo/>}>To Do List</Route>
