@@ -1,7 +1,7 @@
 import {HashRouter, Routes, Route} from 'react-router-dom'
 import ToDo from './pages/todo'
 import Contact from './pages/contacts'
-import Nav from './components/navbar'
+
 import './App.css'
 
 
@@ -10,6 +10,7 @@ function App() {
 
   return (
    
+
     <HashRouter>
           <header>
             <Nav>
