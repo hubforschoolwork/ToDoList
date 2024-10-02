@@ -1,4 +1,4 @@
-import {Route, BrowserRouter as Router, Switch, Link} from 'react-router-dom';
+import {Route, BrowserRouter as Router, Switch} from 'react-router-dom';
 import React from 'react';
 import MyNavbar from './components/navbar';
 import Todo from './pages/Todo';
@@ -8,8 +8,8 @@ import './App.css';
 
 
 
-function App() {
 
+function App() {
 
   return (
     <Router>

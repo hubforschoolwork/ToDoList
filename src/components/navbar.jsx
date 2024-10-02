@@ -7,9 +7,6 @@ const MyNavbar = () => {
 <div className="container">
     <nav className="navbar navbar-expand-lg bg-info border-bottom border-body" data-bs-theme="primary">
 
-{/* <nav class="navbar navbar-expand-lg bg-body-tertiary">
-<nav class="navbar bg-info border-bottom border-body" data-bs-theme="primary"> */}
-  
   <div className="container-fluid">
     <a className="navbar-brand" href="#">TO DO LIST</a>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
