@@ -23,38 +23,43 @@ function MyForm() {
     };
 
     return (
-        <form onSubmit={handleSubmit}>
-            <input 
-                type="text" 
-                name="firstName" 
-                value={inputData.firstName} 
-                onChange={handleChange} 
-                placeholder="First Name" 
-            />
-            <input 
-                type="text" 
-                name="lastName" 
-                value={inputData.lastName} 
-                onChange={handleChange} 
-                placeholder="Last Name" 
-            />
-            <input 
-                type="email" 
-                name="email" 
-                value={inputData.email} 
-                onChange={handleChange} 
-                placeholder="Email" 
-            />
-            <input 
-                type="text" 
-                name="email" 
-                value={inputData.comments} 
-                onChange={handleChange} 
-                placeholder="Comments" 
-            />
+        <div className="contact-container">
+            <form className="form-container" onSubmit={handleSubmit}>
+                <input 
+                    type="text" 
+                    name="firstName" 
+                    value={inputData.firstName} 
+                    onChange={handleChange} 
+                    placeholder="First Name" 
+                />
 
-            <button type="submit">Submit</button>
-        </form>
+                <input 
+                    type="text" 
+                    name="lastName" 
+                    value={inputData.lastName} 
+                    onChange={handleChange} 
+                    placeholder="Last Name" 
+                />
+
+                <input 
+                    type="email" 
+                    name="email" 
+                    value={inputData.email} 
+                    onChange={handleChange} 
+                    placeholder="Email" 
+                />
+                
+                <input 
+                    type="text" 
+                    name="email" 
+                    value={inputData.comments} 
+                    onChange={handleChange} 
+                    placeholder="Comments" 
+                />
+
+                <button type="submit">Submit</button>
+            </form>
+        </div>
     );
 }
 
