@@ -13,7 +13,7 @@ function App() {
 
   return (
     <Router>
-      <div className = "container">
+      <div className = "container-front">
         <div className="App">
           <MyNavbar />
           <Switch>
