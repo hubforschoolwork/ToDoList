@@ -1,8 +1,8 @@
 import {Route, BrowserRouter as Router, Switch} from 'react-router-dom';
 import React from 'react';
 import MyNavbar from './components/navbar';
-import Todo from './pages/Todo';
-import Contacts from './pages/Contacts';
+// import Todo from './pages/Todo';
+// import Contacts from './pages/Contacts';
 import './App.css';
 
 
