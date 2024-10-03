@@ -14,8 +14,8 @@ function App() {
         <div className="App">
           <MyNavbar />
           <Routes>
-          <Route path="/" exact element={Todo} />
-          <Route path="/contacts" exact element={Contacts} />
+          <Route path="/" exact component={Todo} />
+          <Route path="/contacts" exact component={Contacts} />
           </Routes>
       
         </div>
