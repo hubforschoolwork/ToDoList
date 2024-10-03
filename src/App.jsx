@@ -1,12 +1,9 @@
-import {Route, BrowserRouter as Router, Switch} from 'react-router-dom';
 import React from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import MyNavbar from './components/navbar';
-// import Todo from './pages/Todo';
-// import Contacts from './pages/Contacts';
+import Todo from './pages/Todo';
+import Contacts from './pages/Contacts';
 import './App.css';
-
-
-
 
 
 function App() {
@@ -16,10 +13,10 @@ function App() {
       <div className = "container-front">
         <div className="App">
           <MyNavbar />
-          <Switch>
-          <Route path="/" exact component={Todo} />
-          <Route path="/contacts" exact component={Contacts} />
-          </Switch>
+          <Routes>
+          <Route path="/" exact element={Todo} />
+          <Route path="/contacts" exact element={Contacts} />
+          </Routes>
       
         </div>
       </div>

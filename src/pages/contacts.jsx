@@ -1,27 +1,27 @@
 import MyForm from '../components/MyForm';
-import '../App.css'
+import '../App.css';
 
 
-function MyForm() {
+// const MyForm = () 
 
-    return (
-        <Router>
-          <div className = "container-front">
-            <div className="App">
-              <MyNavbar />
-              <Switch>
-              <Route path="/" exact component={Todo} />
-              <Route path="/contacts" exact component={Contacts} />
-              </Switch>
+//     return (
+//         <Router>
+//           <div className = "container-front">
+//             <div className="App">
+//               <MyForm />
+//               <Switch>
+//               <Route path="/" exact component={Todo} />
+//               <Route path="/contacts" exact component={Contacts} />
+//               </Switch>
           
-            </div>
-          </div>
-      </Router>  
-      );
-    }
+//             </div>
+//           </div>
+//       </Router>  
+//       );
     
-    export default App
+    
+//     export default App
     
 
 
-}
+
