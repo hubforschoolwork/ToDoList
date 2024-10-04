@@ -11,17 +11,15 @@ function App() {
 
   return (
     <Router>
-      <div>
+      <div style={{ position: 'relative', height: '100vh' }}>
         <BackgroundImageComponent />
-        <div className = "container-front">
+        <div className="container-front" style={{ position: 'relative', zIndex: 1 }}>            
           <div className="App">
-
             <MyNavbar />
             <Routes>
-              <Route path="/" exact element={<Todo/>} />
-              <Route path="/contacts" exact element={<Contacts/>} />
+              <Route path="/" element={<Todo/>} />
+              <Route path="/contacts" element={<Contacts/>} />
             </Routes>
-      
           </div>
         </div>
       </div>
@@ -29,4 +27,4 @@ function App() {
   );
 }
 
-export default App
+export default App;
