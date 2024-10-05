@@ -5,7 +5,7 @@ import {Link} from 'react-router-dom';
 const MyNavbar = () => {
   return (
 <div className="container-bar">
-    <nav className="navbar navbar-expand-lg bg-info border-bottom border-body" data-bs-theme="primary">
+    <nav className="navbar navbar-expand-lg bg-info border-bottom border-body" data-bs-theme="primary%">
 
   <div className="container-fluid">
     <a className="navbar-brand" href="#">TO DO LIST</a>
