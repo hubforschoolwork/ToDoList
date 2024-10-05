@@ -5,8 +5,6 @@
   text-align: center;
 } 
 
-
-
 .App {
   width: 100%;
   max-width: 480px;
@@ -16,16 +14,6 @@
   position: relative;
 }
 
-/* 
-.backgroundwaves {
-  background-image: url('./assets/beach-4161593_1280.jpg');
-  background-size: cover;
-  background-position: center;
-  min-height: 100vh;
-  background-repeat: no-repeat;
-
-} */
-
 .container-front {
   position: relative;
   z-index: 1;
@@ -33,10 +21,7 @@
   background-color: rgba(255, 255, 255, 0.8);
 }
 
-
-
 .container-bar {
-
 
 }
 
