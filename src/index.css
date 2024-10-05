@@ -21,23 +21,6 @@ body {
 }
 
 
-
-
-
-
-background {
-  background-image: url('../assets/beach-4161593_1280.jpg');
-  background-size: cover;
-  background-position: center;
-  min-height: 100vh;
-  background-repeat: no-repeat;
-
-}
-
-
-
-
-
 a {
   font-weight: 500;
   color: #646cff;

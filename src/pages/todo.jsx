@@ -1,7 +1,8 @@
 import React from 'react';
 
 const Todo = () => {
-  return <h1>Todo Page</h1>;
+  return <h3>Todo List</h3>;
 };
+
 
 export default Todo;
