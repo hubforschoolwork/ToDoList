@@ -13,11 +13,17 @@
   background-color: rgb(189, 173, 139);
   position: relative;
   padding: 2rem;
+  outline: auto;
 }
 
 h3 {
   padding-top: 1rem;
 }
+
+.navbar {
+  outline: auto;
+}
+
 
 /* .container-front {
   position: relative;
