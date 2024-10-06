@@ -1,10 +1,10 @@
 import React from 'react';
-import ContactForm from './ContactForm'; // Adjust the path as necessary
+import ContactForm from '../components/ContactForm'; // Adjust the path as necessary
 
 function Contacts() {
     return (
         <div>
-            <h1>Contact Us</h1>
+            <h3>Contact Form</h3>
             <ContactForm />
         </div>
     );
