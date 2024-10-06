@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 
+
 function ContactForm() {
     const [formData, setFormData] = useState({
         firstname: '',
@@ -23,23 +24,29 @@ function ContactForm() {
     };
 
     return (
-        <form onSubmit={handleSubmit}>
-            <label>
+        <div className="contact-container">
+        <form onSubmit={handleSubmit} className="form-container">
+            <div>
+                <label>
                 First Name:
                 <input type="text" name="firstname" value={formData.firstname} onChange={handleChange} />
             </label>
+            </div>
 
-
-            <label>
+            <div>
+           <label>
                 Last Name:
                 <input type="text" name="lastname" value={formData.lastname} onChange={handleChange} />
             </label>
+            </div>
 
 
+            <div>
             <label>
                 Email:
                 <input type="email" name="email" value={formData.email} onChange={handleChange} />
             </label>
+            </div>
 
 
             <label>
@@ -47,9 +54,12 @@ function ContactForm() {
                 <textarea name="comments" value={formData.comments} onChange={handleChange} />
             </label>
 
-            <button type="submit">Submit</button>
+
+<br/>
+            <button type="submit" button id="button1">Submit</button>
 
         </form>
+        </div>
     );
 }
 

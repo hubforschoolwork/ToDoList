@@ -1,0 +1,34 @@
+.form-container {
+    display: flex;
+    justify-content: right;
+    flex-direction: column;
+    align-items: right;
+    padding-top: 2rem;
+
+
+}
+
+.contact-container{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items:center;
+        padding-bottom: 2rem;
+    
+}
+
+
+.button1 {
+    background-color:#3F98FF;
+    color:black;
+    border:none;
+    border-radius:5px;
+    width:15vw;
+    margin: 10px;
+    height:30px;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+
