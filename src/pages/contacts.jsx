@@ -1,14 +1,13 @@
 import React from 'react';
-import Form from '.components/Form';
+import ContactForm from './ContactForm'; // Adjust the path as necessary
 
-
-const Contacts = () => {
-  return <h3>Contacts</h3>;
-  
-  const Form = () => {
+function Contacts() {
     return (
-< Form/>
-
-};
+        <div>
+            <h1>Contact Us</h1>
+            <ContactForm />
+        </div>
+    );
+}
 
 export default Contacts;
