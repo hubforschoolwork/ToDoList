@@ -11,17 +11,17 @@
 
 
 import React from 'react';
-import ContactForm from '../components/ContactForm'; // Adjust the path as necessary
-import './Contacts.css'
+import TodoForm from '../components/TodoForm'; // Adjust the path as necessary
+import './Todo.css'
 
-function Contacts() {
+function Todo() {
     return (
-        <div className="form-container">
-            <h3>Contact Form</h3>
+        <div className="todo-container">
+            <h3>Todo Form</h3>
             
-            <ContactForm />
+            <TodoForm />
         </div>
     );
 }
 
-export default Contacts;
+export default Todo;
