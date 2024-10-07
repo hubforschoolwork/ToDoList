@@ -7,28 +7,59 @@
     color: black;
 }
 
-.contact-container{
+.contact-container {
     display:flex;
     flex-direction: column;
     justify-content: center;
     align-items:center;
     padding-bottom: 2rem;
-  
 }
 
+.form-grid {
+    display: grid;                       /* Enable grid for the container */
+    grid-template-columns: 150px auto;  /* Define columns for the label and input */
+    gap: 50px;                           /* Space between the rows */
+    align-items: center;                 /* Align items vertically */
+}
 
-.button1 {
-    background-color:#3F98FF;
+label {
+    text-align: left;                    /* Align text to the left */
+    padding-top:  10%;
+}
+
+input {
+    border-radius: 5px;
+    width: 250px;
+}
+
+textarea {
+    border-radius: 5px;
+    width: 250px;
+    padding: 15%;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+
+} 
+
+.button {
+    background-color: white;
     color:black;
-    border:none;
     border-radius:5px;
     width:15vw;
-    margin: 10px;
     height:30px;
-    align-items: center;
     text-align: center;
-    margin-bottom: 2rem;
-
+    margin-bottom: 25%;
+    padding-top: 25%;
+    align-items: center;
+    outline: auto;
 }
 
+@media (max-width: 600px) {
+    .form-group, .form-grid {
+        flex-direction: column;     /* Stack elements vertically */
+    }
 
+    label {
+        width: auto;                /* Reset width for small screens */
+    }
+}

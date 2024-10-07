@@ -39,34 +39,38 @@ function ContactForm() {
 
     return (
         <form onSubmit={handleSubmit}>
-            
+
+            <div className='form-grid'>            
                 <label>First Name:
-                    <input type="text" name="firstname" value={formData.firstname} onChange={handleChange} />
+                    <input type="text" id='firstname' name="firstname" value={formData.firstname} onChange={handleChange} />
                 </label>
+            </div>
             
-<br/>
-            <div>
+
+            <div className='form-grid'>
                 <label>Last Name:
-                    <input type="text" name="lastname" value={formData.lastname} onChange={handleChange} />
+                    <input type="text" id='lastname' name="lastname" value={formData.lastname} onChange={handleChange} />
                 </label>
             </div>
-<br/>
 
-            <div>
+
+            <div className='form-grid'>
                 <label>Email:
-                    <input type="email" name="email" value={formData.email} onChange={handleChange} />
+                    <input type="email" id='email' name="email" value={formData.email} onChange={handleChange} />
                 </label>
             </div>
-<br/>
-            <div>
-                <label>Message:
-                    <textarea name="message" value={formData.message} onChange={handleChange} />
-                </label>
-            </div>
-<br/>
 
-            <button type="submit">Submit</button>
+            <div className='form-grid'>
+                <label>Message:
+                    <textarea name="message" id='message' value={formData.message} onChange={handleChange} />
+                </label>
+            </div>
+
+            <div className='form-grid'>
+            <button type="submit" id='button'>Submit</button>
             {submissionStatus && <p>{submissionStatus}</p>}
+            </div>
+
         </form>
     );
 }
