@@ -5,8 +5,8 @@ function ContactForm() {
     const [submissionStatus, setSubmissionStatus] = useState('');
 
     const handleChange = (event) => {
-        const { firstname, value } = event.target;
-        setFormData((prevData) => ({ ...prevData, [firstname]: value }));
+        const { name, value } = event.target;
+        setFormData((prevData) => ({ ...prevData, [name]: value }));
     };
 
     const handleSubmit = (event) => {
