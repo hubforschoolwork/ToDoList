@@ -1,17 +1,17 @@
+import React from 'react';
+
+const Todo = () => {
+  return <h3>Todo List</h3>;
+};
+
+
+export default Todo;
+
+
+
+
 // import React from 'react';
-
-// const Todo = () => {
-//   return <h3>Todo List</h3>;
-// };
-
-
-// export default Todo;
-
-
-
-
-// import React from 'react';
-// import TodoForm from '../components/TodoForm'; // Adjust the path as necessary
+// import TodoForm from '../components/TodoForm';
 // import './Todo2.css'
 
 // function Todo() {
