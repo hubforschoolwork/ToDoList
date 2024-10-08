@@ -1,6 +1,6 @@
 import React from 'react';
 import ContactForm from '../components/ContactForm'; // Adjust the path as necessary
-import './Contacts2.css'
+import './Contacts.css'
 
 function Contacts() {
     return (
