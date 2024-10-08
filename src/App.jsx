@@ -14,6 +14,8 @@ function App() {
             <MyNavbar />
             <Routes>
               <Route path="/" element={<Todo/>} />
+
+              
               <Route path="/contacts" element={<Contacts/>} />
             </Routes>
       </div>
