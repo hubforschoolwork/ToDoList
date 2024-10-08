@@ -10,18 +10,18 @@
 
 
 
-import React from 'react';
-import TodoForm from '../components/TodoForm'; // Adjust the path as necessary
-import './Todo.css'
+// import React from 'react';
+// import TodoForm from '../components/TodoForm'; // Adjust the path as necessary
+// import './Todo2.css'
 
-function Todo() {
-    return (
-        <div className="todo-container">
-            <h3>Todo Form</h3>
+// function Todo() {
+//     return (
+//         <div className="todo-container">
+//             <h3>Todo Form</h3>
             
-            <TodoForm />
-        </div>
-    );
-}
+//             <TodoForm />
+//         </div>
+//     );
+// }
 
-export default Todo;
+// export default Todo;
