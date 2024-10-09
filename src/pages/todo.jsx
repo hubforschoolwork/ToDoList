@@ -1,21 +1,11 @@
-// import React from 'react';
-
-// const Todo = () => {
-//   return <h3>Todo List</h3>;
-// };
-
-
-// export default Todo;
-
-
-
-
 import React from 'react';
 // import TodoForm from '../components/TodoForm';
 import './Todo.css';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faStar } from '@fortawesome/free-solid-svg-icons'
+
+
 
 function Todo() {
     return (
@@ -28,3 +18,17 @@ function Todo() {
 }
 
 export default Todo;
+
+
+
+
+
+
+// import React from 'react';
+
+// const Todo = () => {
+//   return <h3>Todo List</h3>;
+// };
+
+
+// export default Todo;
