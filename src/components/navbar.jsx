@@ -29,9 +29,7 @@ const MyNavbar = () => {
 
       </ul>
 
-      <span className="navbar-text">
-        Extra!
-      </span>
+
     </div>
   </div>
   </nav>

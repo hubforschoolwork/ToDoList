@@ -48,7 +48,13 @@ function Todo() {
 
   return (
     <div className="todo-app">
-      <h1>To Do List</h1>
+      <h3>To Do List</h3>
+      <br/>
+      <p>Click on a task to mark it as completed.</p>
+      <p>Click on a completed task to add back to To Do List.</p>  
+      
+      <br/>
+
       <input
         value={input}
         onChange={(e) => setInput(e.target.value)}
