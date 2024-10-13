@@ -25,11 +25,19 @@ h3 {
   outline: auto;
 }
 
-
-.container-front {
-
-
+button {
+  outline: auto;
 }
+
+input {
+  outline: auto;
+}
+
+textarea {
+  outline: auto;
+}
+
+
 
 /* .container-front {
   position: relative;
