@@ -12,12 +12,17 @@ function App() {
     <Router>
       <div className="App">
             <MyNavbar />
-            <Routes>
-              <Route path="/" element={<Todo/>} />
 
-              
-              <Route path="/contacts" element={<Contacts/>} />
-            </Routes>
+            <div className="container-front">
+              <Routes>
+                
+                <Route path="/" element={<Todo/>} />
+      
+                <Route path="/contacts" element={<Contacts/>} />
+
+              </Routes>
+
+            </div>
       </div>
     </Router>  
   );
