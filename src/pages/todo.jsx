@@ -6,6 +6,13 @@ function Todo() {
   const [input, setInput] = useState('');
 
   const addTask = () => {
+    if (tasks.length >= 7) {
+      alert("You can only add up to 7 tasks.");  // Alert if the task limit is reached
+      return;  // Prevent further execution
+    }
+
+
+
     if (input.trim()) {
       setTasks([...tasks, { text: input, completed: false }]);
       setInput('');
