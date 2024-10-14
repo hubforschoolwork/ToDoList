@@ -2,7 +2,7 @@
 .todo-app {
     max-width: 500px;
     margin: auto;
-    padding: 20px;
+    padding: 10px;
     background-color: #f4f4f4;
     border-radius: 10px;
     margin-top: 50px;
@@ -11,20 +11,21 @@
   
   .todo-app input {
     width: calc(100% - 60px);
-    padding: 10px;
+    padding: 5px;
     border: 1px solid #ccc;
     border-radius: 5px;
     outline: auto;
   }
   
   .todo-app button {
-    padding: 10px;
+    padding: 5px;
     border: none;
     border-radius: 5px;
     background-color:#007bff;
     color: black;
     cursor: pointer;
     margin-left: 5px;
+    outline: auto;
   }
   
   .todo-app ul {
@@ -35,7 +36,7 @@
   .todo-app li {
     display: flex;
     justify-content: space-between;
-    padding: 10px;
+    padding: 5px;
     border-bottom: 1px solid #ddd;
   }
   
