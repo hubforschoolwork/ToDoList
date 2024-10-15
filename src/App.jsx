@@ -13,7 +13,7 @@ function App() {
 
     <Router>
       <div className="App">
-
+      <i className="fa-solid fa-star"></i>
             <MyNavbar />
 
             <div className="container-front">
