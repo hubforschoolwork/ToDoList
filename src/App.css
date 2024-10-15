@@ -5,6 +5,12 @@
   text-align: center;
 } 
 
+.icon {
+  position: absolute;
+}
+
+
+
 
 .App {
   width: 100%;

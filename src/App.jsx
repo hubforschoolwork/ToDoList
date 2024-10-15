@@ -6,16 +6,21 @@ import Todo from './pages/todo.jsx';
 import Contacts from './pages/contacts.jsx';
 
 
+
 function App() {
 
   return (
+
     <Router>
       <div className="App">
+
             <MyNavbar />
 
             <div className="container-front">
+       
+
               <Routes>
-                
+
                 <Route path="/" element={<Todo/>} />
       
                 <Route path="/contacts" element={<Contacts/>} />
@@ -24,7 +29,8 @@ function App() {
 
             </div>
       </div>
-    </Router>  
+    </Router>
+ 
   );
 }
 
