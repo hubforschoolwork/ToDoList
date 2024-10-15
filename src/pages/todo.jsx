@@ -12,7 +12,6 @@ function Todo() {
     }
 
 
-
     if (input.trim()) {
       setTasks([...tasks, { text: input, completed: false }]);
       setInput('');
