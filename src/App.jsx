@@ -4,7 +4,8 @@ import MyNavbar from './components/navbar';
 import './App.css';
 import Todo from './pages/todo.jsx';
 import Contacts from './pages/contacts.jsx';
-import Star from './components/star';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faStar } from '@fortawesome/free-solid-svg-icons';
 
 
 
@@ -14,11 +15,11 @@ function App() {
 
     <Router>
       <div className="App">
-        
-        <Star className="star top-left" />
-        <Star className="star top-right" />
-        <Star className="star bottom-left" />
-        <Star className="star bottom-right" />
+
+        <i className="fa-solid fa-star top-left"></i>
+        <i className="fa-solid fa-star top-right"></i>
+        <i className="fa-solid fa-star bottom-left"></i>
+        <i className="fa-solid fa-star bottom-right"></i>
 
             <MyNavbar />
 
