@@ -37,13 +37,11 @@ function Todo() {
         <i className="fa-solid fa-star top-left"></i>
         To Do List
         <i className="fa-solid fa-star top-right"></i>
-        </h3>
-      <br/>
+      </h3>
+
       <p>Click on a task to mark it as completed.</p>
       <p>Click on a completed task to add back to To Do List.</p>  
       
-      <br/>
-
       <input
         value={input}
         onChange={(e) => setInput(e.target.value)}
