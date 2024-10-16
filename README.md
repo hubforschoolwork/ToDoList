@@ -9,9 +9,11 @@ This is a basic To Do List/Contact Form application.
 <li>These task items can be added, marked as completed, deleted from the list and also toggled back to "active" status.</li>
 <li>As the task list is front and center upon opening the app, no additional "buttons" or navigation are necessary.  Status is easy to see "at a glance".</li>
 <li>The Contact Form is short, but includes all the essential fields as expected.</li>
-<li>The app uses the following:  React, Html and css.</li>
+<li>The app uses the following:  React, HTML and CSS.</li>
 <li>The app has room to grow and the following improvements would be a good place to start:</li>
-  <li></li>
+  <li><Contact Form:  Add a feature where the contacts can actually be stores and retrieved at a later date./li>
+  <li>Color-Code Task Items by Category:  Red = urgent; blue = not urgent; yellow = deadline approaching.</li>
+  <li>Notifications:  If tasks were entered along with an optional "due date", the user could request a notification in advance of the due date.</li>
 
 
 
