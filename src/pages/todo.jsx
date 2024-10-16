@@ -32,7 +32,12 @@ function Todo() {
 
   return (
     <div className="todo-app">
-      <h3>To Do List</h3>
+      <i className="fa-solid fa-anchor middle"></i>
+      <h3>
+        <i className="fa-solid fa-star top-left"></i>
+        To Do List
+        <i className="fa-solid fa-star top-right"></i>
+        </h3>
       <br/>
       <p>Click on a task to mark it as completed.</p>
       <p>Click on a completed task to add back to To Do List.</p>  

@@ -14,9 +14,9 @@ function App() {
 
       <div className="App">
 
-        <i className="fa-solid fa-star top-left"></i>
+        {/* <i className="fa-solid fa-star top-left"></i>
         <i className="fa-solid fa-anchor middle"></i>
-        <i className="fa-solid fa-star top-right"></i>
+        <i className="fa-solid fa-star top-right"></i> */}
 
             <MyNavbar />
 
