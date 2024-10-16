@@ -12,10 +12,10 @@ This is a basic To Do List/Contact Form application.
 <li>The app uses the following:  ReactJS, HTML and CSS.</li>
 </ul>
 </br>
-<ul>
+<ol>
 <li>The app has room to grow and the following improvements would be a good place to start:</li>
     <li>Contact Form:  Add a feature where the contacts can be stored and retrieved as needed.</li>  
     <li>Color-Code Task Items by Category:  Red = urgent; blue = not urgent; yellow = deadline approaching.</li>
     <li>Notifications:  If tasks were entered along with an optional "due date", the user could request a notification in advance of the due date.</li>
     <li>Increase the number of tasks that can be input beyond the 7 task maximum.  This would include adjustments to the size of the container as well.</li>
-</ul>
+</ol>
