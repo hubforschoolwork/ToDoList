@@ -4,9 +4,6 @@ import MyNavbar from './components/navbar';
 import './App.css';
 import Todo from './pages/todo.jsx';
 import Contacts from './pages/contacts.jsx';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faStar } from '@fortawesome/free-solid-svg-icons';
-
 
 
 function App() {
@@ -14,12 +11,13 @@ function App() {
   return (
 
     <Router>
+
       <div className="App">
 
+        {/* <div className="star container"> */}
         <i className="fa-solid fa-star top-left"></i>
+        <i className="fa-solid fa-anchor middle"></i>
         <i className="fa-solid fa-star top-right"></i>
-        <i className="fa-solid fa-star bottom-left"></i>
-        <i className="fa-solid fa-star bottom-right"></i>
 
             <MyNavbar />
 
@@ -34,6 +32,7 @@ function App() {
               </Routes>
 
             </div>
+
       </div>
     </Router>
  

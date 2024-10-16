@@ -16,14 +16,14 @@
 }
 
 .form-grid {
-    display: grid;                       /* Enable grid for the container */
-    grid-template-columns: 150px auto;  /* Define columns for the label and input */
-    gap: 50px;                           /* Space between the rows */
-    align-items: center;                 /* Align items vertically */
+    display: grid;
+    grid-template-columns: 150px auto;
+    gap: 50px;
+    align-items: center;
 }
 
 label {
-    text-align: left;                    /* Align text to the left */
+    text-align: left;
     padding-top:  10%;
 }
 
@@ -38,7 +38,6 @@ textarea {
     padding: 15%;
     padding-bottom: 20px;
     margin-bottom: 20px;
-
 } 
 
 .button {
@@ -56,10 +55,10 @@ textarea {
 
 @media (max-width: 600px) {
     .form-group, .form-grid {
-        flex-direction: column;     /* Stack elements vertically */
+        flex-direction: column;
     }
 
     label {
-        width: auto;                /* Reset width for small screens */
+        width: auto;
     }
 }

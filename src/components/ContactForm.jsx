@@ -12,16 +12,13 @@ function ContactForm() {
     const handleSubmit = (event) => {
         event.preventDefault();
 
-        // Check if form fields are filled
-        if (!formData.firstname || !formData.lastname || !formData.email || !formData.message) {
+            if (!formData.firstname || !formData.lastname || !formData.email || !formData.message) {
             alert('All fields are required!');
             return;
         }
 
-        // Display a submission status message
         setSubmissionStatus('Your contact information has been submitted.');
 
-        // Clear the form data
         setFormData({ firstname: '', lastname: '', email: '', message: '' });
     };
 
