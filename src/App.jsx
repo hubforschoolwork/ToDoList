@@ -14,7 +14,6 @@ function App() {
 
       <div className="App">
 
-        {/* <div className="star container"> */}
         <i className="fa-solid fa-star top-left"></i>
         <i className="fa-solid fa-anchor middle"></i>
         <i className="fa-solid fa-star top-right"></i>
