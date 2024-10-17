@@ -19,5 +19,5 @@ The app has room to grow and the following improvements would be a good place to
     <li>Contact Form:  Add a feature where the contacts can be stored and retrieved as needed.</li>  
     <li>Color-Code Task Items by Category:  Red = urgent; blue = not urgent; yellow = deadline approaching.</li>
     <li>Notifications:  If tasks were entered along with an optional "due date", the user could request a notification in advance of the due date.</li>
-    <li>Increase the number of tasks that can be input beyond the 7 task maximum.  This would include adjustments to the size of the container as well.</li>
+    <li>Increase the number of tasks that can be input beyond the 7 task maximum.</li>
 </ul>

@@ -33,10 +33,13 @@ function Todo() {
   return (
     <div className="todo-app">
       <i className="fa-solid fa-anchor middle"></i>
+      
       <h3>
-        <i className="fa-solid fa-star top-left"></i>
-        To Do List
-        <i className="fa-solid fa-star top-right"></i>
+          <i className="fa-solid fa-star top-left"></i>
+
+          To Do List
+
+          <i className="fa-solid fa-star top-right"></i>
       </h3>
 
       <p>Click on a task to mark it as completed.</p>
