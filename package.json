@@ -1,5 +1,5 @@
 {
-  "homepage": "http://hubforschoolwork.github.io/ToDoList",
+  "homepage": "https://hubforschoolwork.github.io/ToDoList/",
   "name": "react",
   "private": true,
   "version": "0.0.0",
@@ -7,7 +7,6 @@
   "scripts": {
     "dev": "vite",
     "build": "react-scripts build",
-    // "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
