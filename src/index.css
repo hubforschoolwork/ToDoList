@@ -16,7 +16,7 @@
 
 body {
   background-color: #2b9b09;
-  background-image: url('./assets/beach-4161593_1280.jpg');
+  background-image: url('.src/assets/beach-4161593_1280.jpg');
   background-size: cover;
   background-repeat: no-repeat;
 }
